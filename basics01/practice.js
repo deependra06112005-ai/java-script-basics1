@@ -71,3 +71,22 @@ let emptyStr = "";
 let bool4 = Boolean(emptyStr);
 console.log(bool4); // false
 
+let num4 = 0;
+let bool5 = Boolean(num4);
+console.log(bool5); // false
+
+let num5 = 1;
+let bool6 = Boolean(num5);
+console.log(bool6); // true
+
+let nullValue = null;
+let bool7 = Boolean(nullValue);
+console.log(bool7); // false
+
+let undefinedValue = undefined;
+let bool8 = Boolean(undefinedValue);
+console.log(bool8); // false
+
+let nanValue = NaN;
+let bool9 = Boolean(nanValue);
+console.log(bool9); // false
