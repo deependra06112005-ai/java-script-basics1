@@ -34,6 +34,17 @@
             justify-content: center;
         }
     </style>
+    <script>
+        document.querySelector(".card button").addEventListener("click", function() {
+            document.querySelector(".card h5").innerText = "Friend";
+        });
+        document.querySelector(".card button").addEventListener("click", function() {
+            document.querySelector(".card h5").style.color = "green";
+        });
+        document.querySelector(".card button").addEventListener("click", function(event) {
+            event.target.style.backgroundColor = "green";
+        });
+    </script>
     
 </body>
 </html>
