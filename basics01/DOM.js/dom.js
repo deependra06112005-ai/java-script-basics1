@@ -5,9 +5,15 @@
 //changing in HTML
 //Changing in CSS
 //event listener 
-document.querySelector(".heading").innerText = "DOM Learning with JavaScript";
+/*document.querySelector(".heading").innerText = "DOM Learning with JavaScript";
 document.querySelector(".heading").style.color = "white";
 document.querySelector(".heading").style.textAlign = "center";
 document.querySelector(".heading").style.padding = "20px";
 document.querySelector(".heading").style.fontSize = "40px";
-document.querySelector(".heading").style.fontFamily = "Arial, Helvetica, sans-serif";
+document.querySelector(".heading").style.fontFamily = "Arial, Helvetica, sans-serif";*/
+
+setInterval
+setInterval(() => {
+    
+}, 1000 );
+
